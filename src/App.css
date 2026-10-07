@@ -1,0 +1,107 @@
+:root {
+    /* =========================
+       THEME COLORS
+    ========================= */
+
+    --bg-dark: #1b1918;
+    --bg-dark-soft: #242221;
+    --bg-card: #ffffff;
+
+    --text-white: #ffffff;
+    --text-dark: #111111;
+    --text-gray: #8f8987;
+    --text-gray-dark: #4a4746;
+
+    --orange: #ff5b22;
+    --orange-light: #ff742f;
+    --orange-dark: #e84b16;
+
+    --lime: #b8ff32;
+    --lime-light: #c3ff45;
+    --lime-dark: #9de500;
+
+    --border-light: #ffffff;
+    --border-dark: #33302f;
+
+
+    /* =========================
+       TYPOGRAPHY
+    ========================= */
+
+    --font-primary: "Inter", sans-serif;
+    --font-heading: "Arial Black", "Inter", sans-serif;
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+
+    /* =========================
+       FONT SIZES
+    ========================= */
+
+    --fs-xs: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 20px;
+    --fs-xl: 32px;
+    --fs-2xl: 48px;
+    --fs-3xl: 72px;
+    --fs-hero: clamp(56px, 7vw, 100px);
+
+
+    /* =========================
+       SPACING
+    ========================= */
+
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-2xl: 48px;
+    --space-3xl: 64px;
+
+
+    /* =========================
+       BORDER RADIUS
+    ========================= */
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-pill: 999px;
+
+
+    /* =========================
+       SHADOWS
+    ========================= */
+
+    --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.2);
+    --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.3);
+
+
+    /* =========================
+       TRANSITIONS
+    ========================= */
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+
+
+    /* =========================
+       CONTAINER
+    ========================= */
+
+    --container-width: 1200px;
+    --container-padding: 24px;
+}
+
+body{
+    background-color: var(--bg-dark);
+}
